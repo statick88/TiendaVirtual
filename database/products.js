@@ -46,5 +46,10 @@ module.exports = [
     "name": "Memory usb",
     "category": "Computers",
     "price": 20
+  },
+  {
+    "id": 1705667022326,
+    "name": "Teclado",
+    "price": 20
   }
 ];
