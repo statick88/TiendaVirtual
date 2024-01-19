@@ -67,5 +67,5 @@ io.on('connection', (socket) => {
 });
 
 server.listen(PORT, () => {
-    console.log(`Servidor backend en ejecución en https://gtpwws-3001.csb.app/products`);
+    console.log(`Servidor backend en ejecución en http://localhost:${PORT}`);
 });

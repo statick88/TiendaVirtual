@@ -4,7 +4,7 @@ import ProductForm from './components/ProductForm';
 import socketIOClient from 'socket.io-client';
 import './App.css';
 
-const ENDPOINT = 'https://gtpwws-3001.csb.app/';
+const ENDPOINT = 'http://localhost:3001';
 
 const App = () => {
   const [products, setProducts] = useState([]);
